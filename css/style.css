@@ -1,0 +1,100 @@
+.container{
+    width: 100%;
+    height: 110vh;
+    border: 0px solid #000;
+    
+    background-image: url(../images/space.png);
+}
+
+.sun{
+  background-image: url(../images/sun.png);
+  background-size: cover;
+  width: 300px;
+  height: 160px;
+  position: absolute;
+  top: 37%;
+  left:  36%;
+  object-fit: cover;
+  border-radius: 60px;
+  /* border: #000 1px solid; */
+  overflow: hidden;
+  border-radius: 70px;
+ 
+}
+
+.earth{
+  background-image: url(../images/earth.png);
+  background-size: cover;
+  width: 110px;
+  height: 90px;
+  position: absolute;
+  object-fit: cover;
+  left: 23%;
+  top: 41%;
+ 
+  border-radius: 50%;
+ 
+
+ 
+}
+
+@keyframes identifier {
+  
+
+
+      0% {
+        transform: rotate(0deg);
+      }
+  
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  
+  
+
+
+.button1{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  background-color: greenyellow;  
+  color:blue;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.button2 {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  background-color: red;
+  color: blue;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.animation-pop{
+  
+    animation: identifier 10s linear infinite;
+    transform-origin: 330px 60px;
+  
+
+}
+
+
+
+
+
